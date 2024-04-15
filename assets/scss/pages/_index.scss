@@ -1,0 +1,373 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+
+  .container {
+    width: 95%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .logo {
+      padding: 55px;
+      font-size: 15px;
+      margin: 25px;
+
+      h1 {
+        margin-left: 25px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      span {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: red;
+      }
+    }
+
+    .motherDiv {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      gap: 35px;
+      margin-left: 35px;
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        width: 70%;
+        height: auto;
+
+        ul {
+          display: flex;
+          justify-content: space-between;
+          gap: 15px;
+          margin-right: 15px;
+        }
+
+        li {
+          list-style: none;
+          display: flex;
+          text-align: center;
+          font-family: "Poppins", sans-serif;
+          font-weight: 200;
+          font-size: 13px;
+          font-style: normal;
+          gap: 35px;
+        }
+
+        a {
+          font-family: "Poppins", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          text-decoration: none;
+          display: flex;
+          color: black;
+          justify-content: space-between;
+          align-items: center;
+          text-align: center;
+          gap: 20px;
+
+          :hover {
+            background-color: transparent;
+            transition: 5s;
+            cursor: pointer;
+
+            button:active {
+              opacity: 0.1;
+              color: white;
+            }
+          }
+        }
+
+        .icons {
+          gap: 25px;
+          display: flex;
+        }
+      }
+    }
+  }
+}
+
+main {
+
+  #firstSection {
+    padding-top: 75px;
+    background-image: url(../../../assets/img/slider_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 80vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+
+    .containerTwo {
+      width: 85%;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      margin: auto;
+      justify-content: flex-start;
+      height: auto;
+
+      .writingArea {
+        width: 55%;
+        font-size: 40px;
+        justify-content: flex-start;
+        margin-top: -65px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+        p {
+          font-size: 16px;
+          font-family: "Poppins", sans-serif;
+          font-weight: 500;
+          font-style: normal;
+          line-height: 17px;
+          color: rgb(40, 40, 40);
+        }
+
+        h1 {
+          font-family: "Poppins", sans-serif;
+          // font-weight: 100;
+          font-style: normal;
+          color: rgb(40, 40, 40);
+        }
+
+        button {
+          background-color: #FE4C50;
+          color: white;
+          width: 20%;
+          font-weight: 200px;
+          font-size: 14px;
+          height: 35px;
+          border: 0;
+          border-radius: 3px;
+
+          &:hover {
+            transition: 0.1s;
+            text-shadow: 0 0 1px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+
+  #sectionTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .containerThree {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      margin: auto;
+      margin-top: 25px;
+      gap: 30px;
+
+      .imageBox {
+        image {
+          display: flex;
+          justify-content: center;
+        }
+
+        .btn1 {
+          background-color: white;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          width: 65%;
+          height: auto;
+          position: relative;
+
+          a {
+            background-color: white;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            position: absolute;
+            bottom: 115px;
+            left: 120px;
+            width: 70%;
+            height: 50px;
+            font-size: 22px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+          }
+        }
+      }
+    }
+  }
+
+  #sectionThree {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+    .containerFour {
+      width: 90%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: auto;
+      flex-direction: column;
+
+      h2 {
+        width: 28%;
+        height: auto;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 50px;
+      }
+
+      .line {
+        width: 5%;
+        height: auto;
+        border: 3px solid brown;
+        margin-bottom: 15px;
+      }
+    }
+
+    .containerFive {
+      width: 90%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      ul {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 15px;
+
+        li {
+          list-style: none;
+          display: flex;
+          text-align: center;
+          font-family: "Poppins", sans-serif;
+          font-weight: 200;
+          font-size: 13px;
+          font-style: normal;
+          color: black;
+
+
+          a {
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            display: flex;
+            color: black;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+            border: 1px solid grey;
+            border-radius: 3px;
+            padding: 5px;
+          }
+        }
+      }
+    }
+
+    .containerSix {
+      width: 95%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 15px 15px;
+      margin: 15px 0;
+
+      #productCard {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0px 20px 0px 20px;
+
+        .productCard {
+          display: flex;
+          flex-direction: column;
+          width: 15%;
+          border: 2px solid gray;
+          border-radius: 10px;
+          padding: 15px;
+          align-items: center;
+          margin-top: 15px;
+          transition: 0.5s;
+          justify-content: space-between;
+        }
+
+        .productCard:hover {
+          transform: scale(1.05);
+          transition:0.5s;
+        }
+
+        img {
+          width: 45%;
+
+        }
+
+        .cardDesc {
+          width: 100%;
+          gap: 8px;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .cartBtn {
+          width: 100%;
+          height: 40px;
+          background-color:blueviolet;
+          border: none;
+          border-radius: 10px;
+          color: white;
+          cursor: pointer;
+          transition: 0.5s;
+        }
+
+        .cartBtn:hover {
+          background-color: red;
+          transition: 15s;
+          transform: rotateY(360deg);
+        }
+      }
+    }
+  }
+}
